@@ -14,12 +14,14 @@
 
   --photo-size: 525px;
 
-  --photo-discord-src: "https://www.freepnglogos.com/pics/discord-logo-png";
-  --photo-github-src: "https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png";
-  --photo-telegram-src: "https://www.freepnglogos.com/pics/telegram-png";
+  --photo-discord-src: url("https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png");
+  --photo-github-src: url("https://www.freepnglogos.com/uploads/512x512-logo/512x512-transparent-logo-github-logo-24.png");
+  --photo-telegram-src: url("https://www.freepnglogos.com/uploads/telegram-png/telegram-software-wikipedia-2.png");
+  --photo-src: url("https://avatars.githubusercontent.com/u/50990667?v=4");
 
   --icons-size: 100px;
 }
+
 * {
   margin: 0;
   padding: 0;
