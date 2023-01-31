@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="./src/card.css">
   <title>Document</title>
 </head>
-<body>
+
+<body onload="loads_elem()">
   <div class="nav">
     <div class="logo">nightpower</div>
     <div class="pages">
-      <a href="">Projects</a>
-      <a href="">Contact</a>
-      <a href="">Service</a>
+      <a href="#items">Projects</a>
+      <a href="#contacts">Contact</a>
     </div>
   </div>
   <div id="intro" class="intro land-page">
@@ -26,9 +28,12 @@
       <div class="description">
         Back end Developer / System Administrator
       </div>
-      <div class="btn">
+      <a class="btn" href="#contacts">
         Contact me
-      </div>
+        <!-- <div class="btn">
+          Contact me
+        </div> -->
+      </a>
     </div>
     <div class="image">
       <div class="img"></div>
@@ -38,9 +43,13 @@
     <div class="container">
       <div class="title">My, Myself & I</div>
       <div class="description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sint, distinctio quos hic ducimus veniam iure voluptates in, tenetur incidunt autem molestiae laborum. Enim sunt accusamus facilis libero animi cumque. <br><br>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum nulla aspernatur deleniti veniam ad totam distinctio laudantium, quia a culpa ipsa praesentium iusto tenetur mollitia! Quaerat ad incidunt ipsa <br><br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam illo cumque doloribus sequi commodi fuga nulla earum error soluta eius magnam, quas odio pariatur aliquid quae optio nisi. Labore, culpa. <br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sint, distinctio quos hic ducimus veniam iure
+        voluptates in, tenetur incidunt autem molestiae laborum. Enim sunt accusamus facilis libero animi cumque.
+        <br><br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum nulla aspernatur deleniti veniam ad totam
+        distinctio laudantium, quia a culpa ipsa praesentium iusto tenetur mollitia! Quaerat ad incidunt ipsa <br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam illo cumque doloribus sequi commodi fuga nulla
+        earum error soluta eius magnam, quas odio pariatur aliquid quae optio nisi. Labore, culpa. <br><br>
       </div>
     </div>
   </div>
@@ -49,27 +58,15 @@
       All Programming Language With Which We Work
     </div>
     <div class="container">
-      <div></div>
-      <div></div>
-      <div></div>
+      <div class="item1 card"></div>
+      <div class="item2 card"></div>
     </div>
   </div>
   <div id="items" class="items">
-    <div class="container">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+    <div id="container" class="container">
     </div>
   </div>
-  <div id="block" class="block">
-    <div class="container"></div>
-  </div>
-  <div class="footer">
+  <div class="footer" id="contacts">
     <div class="telegram">
       <div class="ico"></div>
       <div class="title">Telegram</div>
@@ -85,4 +82,5 @@
   </div>
   <script src="./src/script.js"></script>
 </body>
+
 </html>
